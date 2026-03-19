@@ -1,0 +1,9 @@
+{
+    "num_sequences": 4,
+    "vocab_size": 2,
+    "seq_len": 6,
+    "prefix_len": 2,
+    "payload_len": 4,
+    "seed": 1001,
+    "total_payload_bits": 16
+}

@@ -1,0 +1,30 @@
+{
+    "architecture": "BasicTransformer",
+    "config": {
+        "vocab_size": 8,
+        "prefix_len": 5,
+        "payload_len": 5,
+        "d_model": 64,
+        "n_heads": 4,
+        "ffn_multiplier": 4,
+        "n_layers": 6
+    },
+    "parameters": 317320,
+    "seeds": {
+        "payload": 1005,
+        "shuffle": 2005,
+        "init": 3005
+    },
+    "history": {
+        "128": 1.0,
+        "256": 1.0,
+        "512": 1.0,
+        "1024": 1.0,
+        "2048": 1.0,
+        "4096": 0.9912109375,
+        "3072": 0.9954427083333334,
+        "2560": 1.0,
+        "2816": 0.98828125,
+        "2688": 0.9910714285714286
+    }
+}
